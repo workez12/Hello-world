@@ -21,9 +21,9 @@ stages {
             sh 'mvn test'
         }
       }
-}
-stage ('Deployment stage')  {
-    steps {
+    } 
+   stage ('Deployment stage')  {
+      steps {
         withMaven('maven_3_5_0') {
             sh 'mvn deploy'
         }
