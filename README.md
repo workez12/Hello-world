@@ -1,6 +1,5 @@
 # Hello-world
-Test
-<<<<<<< HEAD
+Test HEAD
 this is my test branch
 =======
 work out this
